@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Selectors in CSS</title>
+	<style>
+		h2 {
+			color: red;
+			text-align: center;					/* This is an element Selector */
+		}
+
+		.highlight {
+			font-style: italic;
+			font-weight: bold;
+			background-color: green;			/* This is a class Selector */
+			opacity : .6;
+			font-size: 20px;
+		}
+
+		#mainPoint {
+			font-size: 24px;
+			background: red;					/* This is an id Selector */
+			font-weight: bold;
+		}
+
+		h1, p {
+			color: blue;
+			text-align: center;					/* This is a grouping selector */
+		}
+	</style>
+</head>
+<body>
+	<h1>Simple Selectors (h1)</h1>
+	<h2>Subheading 1 (h2)</h2>
+	<p class="highlight">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	
+	<p class="highlight">Paragraph with attribute class="highlight". Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	<h2>Subheading 2 (h2)</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	<div>This is the Main Point of this article. So, attribute is <span id="mainPoint">id="mainPoint"</span></div>
+</body>
+</html>

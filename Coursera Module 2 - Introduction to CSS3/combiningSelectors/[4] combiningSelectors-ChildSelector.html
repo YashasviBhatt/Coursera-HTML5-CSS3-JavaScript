@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Child Selector</title>
+	<style>
+		/* any article element which is direct child of section element*/
+		section > article {
+			color: green;
+			font-size: 20px;
+		}
+
+		/* any h2 element which is a direct child of section element */
+		section > h2 {
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<h1>Child Selector</h1>
+	<section>
+		<h2>Subheading 1</h2>
+	</section>
+	<section>
+		<div>
+			<article>ARTICLE element inside DIV element, which is inside SECTION element</article>
+		</div>
+	</section>
+	<section>
+		<article>ARTICLE element as a direct child of SECTION element</article>
+	</section>
+	<h2>Subheading 2</h2>
+
+	<!-- Could be written like this also 
+	<h1>Child Selector</h1>
+	<section>
+		<h2>Subheading 1</h2>
+		<div>
+			<article>ARTICLE element inside DIV element, which is inside SECTION element</article>
+		</div>
+		<article>ARTICLE element as a direct child of SECTION element</article>
+	</section>
+	<h2>Subheading 2</h2>
+	-->
+	
+</body>
+</html>

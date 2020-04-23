@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pseudo-Class Selector</title>
+	<style>
+		h1 {
+			color: blue;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		h3 {
+			color: blue;
+			font-weight: bold;
+		}
+
+		div li {
+			list-style: none;
+		}
+
+		a:link, a:visited {
+			text-decoration: none;
+			background-color: black;
+			color: orange;
+			border: 1px solid orange;
+			margin-bottom: 1px;
+			width: 200px;
+			display: block;
+			text-align: center;
+		}
+
+		a:hover {
+			color: pink;
+		}
+
+		a:active {
+			background-color: brown;
+		}
+
+		body div:nth-child(even) {
+			background-color: red;
+			color: yellow;
+		}
+
+		footer {
+			color: blue;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>This is a Document which uses the Psudo-Class Selector</h1>
+	</header>
+	<h3>These are the different platforms from where you can contact me</h3>
+	<div>
+		<ul>
+			<li><a href="https://github.com/YashasviBhatt" target="_blank">Github</a></li>
+			<li><a href="https://www.linkedin.com/in/yashasvi-bhatt-493742184/" target="_blank">LinkedIn</a></li>
+			<li><a href="https://twitter.com/yashasvi_bhatt" target="_blank">Twitter</a></li>
+		</ul>
+	</div>
+	<div>This is the First Division</div>
+	<div>This is the Second Division</div>
+	<div>This is the Third Division</div>
+	<div>This is the Fourth Division</div>
+	<div>This is the Fifth Division</div>
+	<div>This is the Sixth Division</div>
+	<div>This is the Seventh Division</div>
+	<div>This is the Eighth Division</div>
+	<div>This is the Ninth Division</div>
+	<div>This is the Tenth Division</div>
+
+	<footer>
+		<br><br>
+		<div>This is a Sample Document which I have created using Pseudo-Class Selector</div>
+		Yashasvi Bhatt 2020 &copy; Copyright
+	</footer>
+</body>
+</html>
