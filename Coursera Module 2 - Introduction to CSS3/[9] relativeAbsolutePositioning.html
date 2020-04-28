@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Relative and Absolute Positioning</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0; 
+		}
+
+		p {
+			position: relative;
+			margin-bottom: 30px;
+			width: 50px;
+			height: 50px;
+			border: 1px solid black;
+		}
+
+		h1 {
+			margin-bottom: 40px;
+			font-weight: bold;
+			color: #000000;
+			background-color: #f3ca20;
+			text-align: center;
+			font-size: 50px;
+		}
+
+		#box1 {
+			background-color: #1e3d59;
+			top: 80px;
+			left: 80px;
+		}
+
+		#box2 {
+			background-color: #f5f0e1;
+		}
+
+		#box3 {
+			background-color: #ff6e40;
+		}
+
+		#box4 {
+			position: absolute;
+			background-color: #ffc13b;
+			top: 0;
+			left: 0;
+		}
+
+		div {
+			background: #87ceeb;
+			position: relative;
+		}
+	</style>
+</head>
+<body>
+	<h1>Absolute Positioning</h1>
+	<div>
+		<p id="box1"></p>
+		<p id="box2"></p>
+		<p id="box3"></p>
+		<p id="box4"></p>
+	</div>
+</body>
+</html>
