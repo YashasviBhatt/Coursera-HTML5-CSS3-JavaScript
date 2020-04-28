@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Media Queries in CSS</title>
+	<style>
+
+		h1 {
+			margin-bottom: 10px;
+		}
+
+		p {
+			border: 1px solid black;
+			margin-bottom: 15px;
+		}
+
+		#p1 {
+			background-color: orange;
+			width: 300px;
+			height: 300px;
+		}
+
+		#p2 {
+			background-color: black;
+			width: 50px;
+			height: 50px;
+		}
+
+		/* For Large Devices i.e. whose width is 1200px and more */
+		@media (min-width: 1200px) {
+			#p1 {
+				background-color: orange;
+				width: 80%;
+			}
+
+			#p2 {
+				background-color: black;
+				width: 150px;
+				height: 150px;
+			}
+		}
+
+		/* For Medium Devices i.e. whose width lies in range of [992px - 1199px] */
+		@media (min-width: 992px) and (max-width: 1199px) {
+			#p1 {
+				background-color: orange;
+				width: 50%;
+			}
+
+			#p2 {
+				background-color: black;
+				width: 100px;
+				height: 100px;
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Media Queries</h1>
+	<p id="p1"></p>
+	<p id="p2"></p>
+</body>
+</html>
