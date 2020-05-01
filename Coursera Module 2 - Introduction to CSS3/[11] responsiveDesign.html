@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Design</title>
+	<style>
+		/* base styles */
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			background-color: #36688d;
+		}
+
+		h1 {
+			text-align: center;
+			margin-bottom: 10px;
+		}
+
+		p {
+			border: 1px solid black;
+			background-color: #f3cd05;
+			width: 90%;
+			height: 150px;
+			margin-right: auto;
+			margin-left: auto; 
+			color: black;
+		}
+
+		.row {
+			width: 100%;
+		}
+
+		/* for larger devices */
+		@media (min-width: 1200px) {
+			.col-lrg-1, .col-lrg-2, .col-lrg-3, .col-lrg-4, .col-lrg-5, .col-lrg-6, 
+			.col-lrg-7, .col-lrg-8, .col-lrg-9, .col-lrg-10, .col-lgr-11, .col-lrg-12 {
+				float: left;
+				border: 1px solid black;
+			} 
+
+			.col-lrg-1 {
+				width: 8.33%;
+			}
+
+			.col-lrg-2 {
+				width: 16.66%;
+			}
+
+			.col-lrg-3 {
+				width: 25%;
+			}
+
+			.col-lrg-4 {
+				width: 33.33%;
+			}
+
+			.col-lrg-5 {
+				width: 41.66%;
+			}
+
+			.col-lrg-6 {
+				width: 50%;
+			}
+
+			.col-lrg-7 {
+				width: 58.33%;
+			}
+
+			.col-lrg-8 {
+				width: 66.66%;
+			}
+
+			.col-lrg-9 {
+				width: 75%;
+			}
+
+			.col-lrg-10 {
+				width: 83.33%;
+			}
+
+			.col-lrg-11 {
+				width: 91.66%;
+			}
+
+			.col-lrg-12 {
+				width: 100%;
+			}
+		}
+
+		/* For Medium Devices */
+		@media (min-width: 992px) and (max-width: 1199px) {
+			.col-med-1, .col-med-2, .col-med-3, .col-med-4, .col-med-5, .col-med-6, 
+			.col-med-7, .col-med-8, .col-med-9, .col-med-10, .col-med-11, .col-med-12 {
+				float: left;
+				border: 1px solid black;
+			} 
+
+			.col-med-1 {
+				width: 8.33%;
+			}
+
+			.col-med-2 {
+				width: 16.66%;
+			}
+
+			.col-med-3 {
+				width: 25%;
+			}
+
+			.col-med-4 {
+				width: 33.33%;
+			}
+
+			.col-med-5 {
+				width: 41.66%;
+			}
+
+			.col-med-6 {
+				width: 50%;
+			}
+
+			.col-med-7 {
+				width: 58.33%;
+			}
+
+			.col-med-8 {
+				width: 66.66%;
+			}
+
+			.col-med-9 {
+				width: 75%;
+			}
+
+			.col-med-10 {
+				width: 83.33%;
+			}
+
+			.col-med-11 {
+				width: 91.66%;
+			}
+
+			.col-med-12 {
+				width: 100%;
+			}
+		}
+
+		/* for small devices */
+		/*
+		@media (max-width: 991px) {
+			.col-sml-1, .col-sml-2, .col-sml-3, .col-sml-4, .col-sml-5, .col-sml-6, 
+			.col-sml-7, .col-sml-8, .col-sml-9, .col-sml-10, .col-sml-11, .col-sml-12 {
+				float: left;
+				border: 1px solid black;
+			} 
+
+			.col-sml-1 {
+				width: 8.33%;
+			}
+
+			.col-sml-2 {
+				width: 16.66%;
+			}
+
+			.col-sml-3 {
+				width: 25%;
+			}
+
+			.col-sml-4 {
+				width: 33.33%;
+			}
+
+			.col-sml-5 {
+				width: 41.66%;
+			}
+
+			.col-sml-6 {
+				width: 50%;
+			}
+
+			.col-sml-7 {
+				width: 58.33%;
+			}
+
+			.col-sml-8 {
+				width: 66.66%;
+			}
+
+			.col-sml-9 {
+				width: 75%;
+			}
+
+			.col-sml-10 {
+				width: 83.33%;
+			}
+
+			.col-sml-11 {
+				width: 91.66%;
+			}
+
+			.col-sml-12 {
+				width: 100%;
+			}
+		}	
+		*/
+	</style>
+</head>
+<body>
+	<h1>Responsive Design</h1>
+	<div class="row">
+		<div class="col-lrg-3 col-med-6 col-sml-12"><p>Item 1</p></div>
+		<div class="col-lrg-3 col-med-6 col-sml-12"><p>Item 2</p></div>
+		<div class="col-lrg-3 col-med-6 col-sml-12"><p>Item 3</p></div>
+		<div class="col-lrg-3 col-med-6 col-sml-12"><p>Item 4</p></div>
+		<div class="col-lrg-3 col-med-6 col-sml-12"><p>Item 5</p></div>
+		<div class="col-lrg-3 col-med-6 col-sml-12"><p>Item 6</p></div>
+		<div class="col-lrg-3 col-med-6 col-sml-12"><p>Item 7</p></div>
+		<div class="col-lrg-3 col-med-6 col-sml-12"><p>Item 8</p></div>
+		<div class="col-lrg-3 col-med-6 col-sml-12"><p>Item 9</p></div>
+		<div class="col-lrg-3 col-med-6 col-sml-12"><p>Item 10</p></div>
+		<div class="col-lrg-3 col-med-6 col-sml-12"><p>Item 11</p></div>
+		<div class="col-lrg-3 col-med-6 col-sml-12"><p>Item 12</p></div>
+	</div>
+</body>
+</html>
