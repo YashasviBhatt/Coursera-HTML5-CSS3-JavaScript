@@ -131,7 +131,7 @@ p#sushi {
 
 	/*this media query is used to remove extra spaces at ends of column of size 12*/
 	.col-md-12 > div.details {
-	border: 1px solid;
+	border: 1px solid black;
 	width: 95%;
 	padding: 30px;
 	text-align: justify;
