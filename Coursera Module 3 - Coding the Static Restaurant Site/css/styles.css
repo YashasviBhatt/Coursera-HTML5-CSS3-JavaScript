@@ -141,7 +141,11 @@ body {
     background: url('../images/restaurant-logo_medium.jpg') no-repeat;
     width: 160px;
     height: 100px;
-    margin: 5px 5px 5px 0;
+    margin: 15px 5px 5px 0;
+  }
+
+  #phone {
+    font-size: 0.62em;
   }
   /* End Header */
 
