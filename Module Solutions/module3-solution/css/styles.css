@@ -1,0 +1,94 @@
+body {
+	background: rgb(6,6,6);
+	background: linear-gradient(90deg, rgba(6,6,6,1) 0%, rgba(88,88,88,1) 54%, rgba(11,11,11,1) 100%); 
+	color: #FFF;
+	font-size: 16px;	 
+}
+
+/*START HEADER*/
+
+#company-name {
+	color: #000;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+#company-name:hover {
+	text-decoration: none;
+}
+
+#title-navbar {
+	background: rgb(255,255,255);
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(126,126,126,1) 100%);
+	border-radius: 0;
+	border: 0;
+}
+
+#mainNavBar {
+	text-align: right;
+}
+
+/*Designing Navigation List*/
+#mainNavBar span {
+	color: black;
+	font-size: 0.9em;
+}
+
+#nav-list a {
+	text-align: center;
+}
+
+#nav-list li:hover {
+	background: #5d5959;
+}
+
+/*END HEADER */
+
+/*PAGE CONTENT*/
+#our-menu{
+	margin-bottom: 50px;
+	font-weight: 600;
+}
+
+div.description-div {
+	border: 1px solid;
+	position: relative;
+	border-color: white;
+	padding: 20px;
+	text-align: justify;
+	margin-bottom: 30px;
+	width: 100%;
+	height: 800px;
+	overflow: scroll;
+}
+
+span.description-title {
+	display: block;
+	font-size: 1.4em;
+	font-weight: 500;
+	font-style: italic;
+	margin-bottom: 15px;
+
+}
+
+#back-to-top {
+	display: block;
+	text-decoration: none;
+	position: absolute;
+	color: #000;
+	text-align: center;
+	color: #000;
+	font-size: 0.8em;
+	margin-top: 20px;
+	font-weight: 800;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+
+#back-to-top:hover {
+	color: #FFF;
+}
